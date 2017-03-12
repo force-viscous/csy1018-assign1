@@ -1,0 +1,126 @@
+/*Name:Rohit Rajbanshi
+  UN ID:17425093*/
+
+*{ /* This property applies to all the contents*/
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightgray;
+}
+nav h1{
+	font-size: 1.25em;
+	padding-left: 415px;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.first{
+	font-size: 1.55em;
+}
+nav a.current{
+	color:#283593;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	color: gray;
+	padding-left: 15px;
+	display: block;
+	font-size: 1.5em;
+}
+section{
+	display: flex;
+	flex-direction: row;
+}
+.content{
+	width: 60%;
+	padding-top: 50px;
+	padding-left: 20px;
+	color: black;
+}
+.content p{
+	font-size: 1.45em;
+}
+.content h1{
+	color: gray;
+	font-size: 2.5em;
+}
+.image{
+	width: 40%;
+}
+.image img{
+	height: 650px;
+	width: 480px;
+	padding-left: 50px;
+}
+footer{
+	background-color: #311B92;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: white;
+	padding-top: 25px;
+}
+footer p{
+	font-size: 1.25em;
+	padding-top: 10px;
+}
+.contact{
+	display: flex;
+}
+.contact img,.icons img{
+	height: 50px;
+	width: 50px;
+}
+.mail a{
+	text-decoration: none;
+	color: white;
+}
+@media (max-width: 800px){ /*this property is used to make items responsive*/
+	nav ul{
+		display: flex;
+		flex-direction: column;/*this property is used to make items appear in column*/
+	}
+	nav h1{
+		padding-left: 0;
+		display: none;
+	}
+	nav{
+		padding-left: 0px;
+		width: 100%;
+	}
+	.first{
+		display: none;
+	}
+	section{
+		display: flex;
+		flex-direction:column-reverse;
+	}
+	.image{
+		width: 100%;
+	}
+	.image img{
+		width: 300px;
+		height:500px;
+	}
+	.content{
+		width: 100%;
+		padding: 0;
+	}
+	.content p{
+		font-size: 1.2em;
+	}
+	.content h1{
+		font-size: 2em;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+		padding-left: 25px;
+		height:190px;
+		width: 100%;
+	}
+}
