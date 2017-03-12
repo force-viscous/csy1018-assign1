@@ -33,6 +33,7 @@ nav a{
 	font-size: 1.5em;
 }
 .section{
+	/*height: 500px;*/
 	display: flex;
 	flex-direction: row; /*this property is used to make items appear in row*/
 }
@@ -79,8 +80,12 @@ section img{
 	height: 120px;
 	width: 120px;
 	background-color: #00E676;
+	transition: background-color 1s;
 	border-radius: 50%;
 	text-align: center;
+}
+.link1:hover{
+	background-color:#1B5E20;
 }
 .link1 h2, .link2 h2, .link3 h2{
 	padding-top: 50px;
@@ -89,15 +94,23 @@ section img{
 	height: 120px;
 	width: 120px;
 	background-color: #1565C0;
+	transition: background-color 1s;
 	border-radius: 50%;
 	text-align: center;
+}
+.link2:hover{
+	background-color: #1A237E;
 }
 .link3{
 	height: 120px;
 	width: 120px;
 	background-color:#FF8F00; 
+	transition: background-color 1s;
 	border-radius: 50%;
 	text-align: center;
+}
+.link3:hover{
+	background-color: #E65100;
 }
 footer{
 	background-color: #311B92;
@@ -105,10 +118,23 @@ footer{
 	flex-direction: row;
 	justify-content: space-around;
 	color: white;
+	height: 125px;
+	padding-top: 25px;
 }
 footer p{
 	font-size: 1.25em;
 	padding-top: 10px;
+}
+.contact{
+	display: flex;
+}
+.contact img,.icons img{
+	height: 50px;
+	width: 50px;
+}
+.mail a{
+	text-decoration: none;
+	color: white;
 }
 @media (max-width: 800px){ /*this property is used to make items responsive*/
 	nav ul{
@@ -117,6 +143,14 @@ footer p{
 	}
 	nav h1{
 		padding-left: 0;
+		display: none;
+	}
+	nav{
+		padding-left: 0px;
+		width: 100%;
+	}
+	.first{
+		display: none;
 	}
 	.section{
 		display: flex;
@@ -147,5 +181,7 @@ footer p{
 	footer{
 		display: flex;
 		flex-direction: column;
+		padding-left: 25px;
+		height:190px;
 	}
 }
