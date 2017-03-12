@@ -1,0 +1,151 @@
+/*Name:Rohit Rajbanshi
+  UN ID:17425093*/
+
+*{ /* This property applies to all the contents*/
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightgray;
+	color: gray;
+}
+nav h1{
+	font-size: 1.25em;
+	padding-left: 415px;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.first{
+	font-size: 1.55em;
+}
+nav a.current{
+	color:#283593;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	color: gray;
+	padding-left: 15px;
+	display: block;
+	font-size: 1.5em;
+}
+.section{
+	display: flex;
+	flex-direction: row; /*this property is used to make items appear in row*/
+}
+.section h1{
+	font-size: 3.55em;
+	color: gray;
+}
+.section p{
+	font-size: 1.55em;
+	color: gray;
+}
+section img{
+	border-radius: 50%;
+	height: 370px;
+	width: 350px;
+	border:1px solid white;
+}
+.image{
+	padding-top: 100px;
+	width: 40%;
+	padding-left: 330px;
+}
+.contents{
+	padding-top: 60px;
+	width: 60%;
+}
+.contents h3{
+	font-size: 1.755em;
+}
+.contents p{
+	font-size: 1.25em;
+}
+.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.links a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+.link1{
+	height: 120px;
+	width: 120px;
+	background-color: #00E676;
+	border-radius: 50%;
+	text-align: center;
+}
+.link1 h2, .link2 h2, .link3 h2{
+	padding-top: 50px;
+}
+.link2{
+	height: 120px;
+	width: 120px;
+	background-color: #1565C0;
+	border-radius: 50%;
+	text-align: center;
+}
+.link3{
+	height: 120px;
+	width: 120px;
+	background-color:#FF8F00; 
+	border-radius: 50%;
+	text-align: center;
+}
+footer{
+	background-color: #311B92;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: white;
+}
+footer p{
+	font-size: 1.25em;
+	padding-top: 10px;
+}
+@media (max-width: 800px){ /*this property is used to make items responsive*/
+	nav ul{
+		display: flex;
+		flex-direction: column;/*this property is used to make items appear in column*/
+	}
+	nav h1{
+		padding-left: 0;
+	}
+	.section{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.image{
+		width: 100%;
+		padding:0px 30px;
+	}
+	.image img{
+		height: 250px;
+		width: 250px;
+	}
+	.contents{
+		width: 100%;
+	}
+	.contents h1, h3{
+		padding-left: 15px;
+	}
+	.link1, .link2, .link3{
+		height: 80px;
+		width: 80px;
+	}
+	.link1 h2, .link2 h2, .link3 h2{
+	font-size: 1em;
+	padding: 30px 5px;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
