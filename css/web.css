@@ -9,9 +9,12 @@ body{
 	background-color: #d3d3d3;
 	color: gray;
 }
+nav{
+	padding-top: 50px;
+}
 nav h1{
-	font-size: 1.25em;
-	padding-left: 415px;
+	font-size: 1.5em;
+	padding-left: 355px;
 }
 nav ul{
 	list-style-type: none;
@@ -20,6 +23,8 @@ nav ul{
 }
 .first{
 	font-size: 1.55em;
+	position: relative;
+	right: 60px;
 }
 nav a.current{
 	color:#283593;
@@ -33,7 +38,6 @@ nav a{
 	font-size: 1.5em;
 }
 .section{
-	/*height: 500px;*/
 	display: flex;
 	flex-direction: row; /*this property is used to make items appear in row*/
 }
@@ -118,7 +122,6 @@ footer{
 	flex-direction: row;
 	justify-content: space-around;
 	color: white;
-	height: 125px;
 	padding-top: 25px;
 }
 footer p{
@@ -136,7 +139,17 @@ footer p{
 	text-decoration: none;
 	color: white;
 }
+.twitter, .facebook, .instagram{ /*animation used */
+	opacity:1;
+	transition: 1s ease;
+}
+.twitter:hover, .facebook:hover, .instagram:hover{
+	opacity: 0.5;
+}
 @media (max-width: 800px){ /*this property is used to make items responsive*/
+	nav{
+		padding-top: 0;
+	}
 	nav ul{
 		display: flex;
 		flex-direction: column;/*this property is used to make items appear in column*/

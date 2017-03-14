@@ -1,0 +1,153 @@
+/*Name:Rohit Rajbanshi
+  UN ID:17425093*/
+
+*{ /* This property applies to all the contents*/
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #d3d3d3;
+	color: gray;
+}
+nav{
+	padding-top: 50px;
+}
+nav h1{
+	font-size: 1.5em;
+	padding-left: 355px;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.first{
+	font-size: 1.55em;
+	position: relative;/*This property is used so that items can be moved */
+	right: 60px;
+}
+nav a.current{
+	color:#283593;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+	color: gray;
+	padding-left: 15px;
+	display: block;
+	font-size: 1.5em;
+}
+.heading{
+	background-color: silver;
+	height: 150px;
+}
+.heading h1{
+	font-size: 3.6em;
+	padding-top: 35px;
+	padding-left: 35px;
+	color: white;
+}
+.image{
+	position: relative;
+	top: -70px;
+	padding-left: 46%;
+}
+.image img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 4px solid #FFECB3;
+	transition: all .9s;
+}
+.image img:hover{
+	transform: scale(1.2);/* This property is used inorder to zoom the image*/
+	cursor: pointer;
+}
+.firstcontent{
+	display: flex;
+	flex-direction: row;/*This property is used to make items appear in row*/
+}
+.study{
+	width: 55%;
+	padding-left: 20px;
+}
+.firstcontent h3,.lastcontent h3{
+	font-size: 2.325em;
+}
+.firstcontent p,.lastcontent p{
+	font-size: 1.25em;
+}
+.coursework{
+	padding-top: 20px;
+}
+.skills{
+	width: 45%;
+}
+.comp{
+	background-color: #9FA8DA;
+	width: 45%;
+}
+.comp p{
+	padding-left: 18px;
+	color: #1A237E;
+}
+.photoshop{
+	background-color: #E91E63;
+	width: 50%;
+}
+.html{
+	background-color: #00838F;
+	width: 80%;
+}
+.css{
+	background-color: #E91E63;
+	width: 70%;
+}
+.office{
+	background-color: #00838F;
+	width: 78%;
+}
+.other{
+	padding-top: 20px;
+}
+.lastcontent{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.profession{
+	width:55%;
+}
+.activities{
+	width: 45%;
+}
+footer{
+	background-color: #311B92;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: white;
+	padding-top: 25px;
+}
+footer p{
+	font-size: 1.25em;
+	padding-top: 10px;
+}
+.contact{
+	display: flex;
+}
+.contact img,.icons img{
+	height: 50px;
+	width: 50px;
+}
+.mail a{
+	text-decoration: none;
+	color: white;
+}
+.twitter, .facebook, .instagram{ /*animation used */
+	opacity:1;
+	transition: 1s ease;
+}
+.twitter:hover, .facebook:hover, .instagram:hover{
+	opacity: 0.5;
+}
