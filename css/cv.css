@@ -151,3 +151,81 @@ footer p{
 .twitter:hover, .facebook:hover, .instagram:hover{
 	opacity: 0.5;
 }
+@media (max-width: 800px){ /*this property is used to make items responsive*/
+	nav{
+		padding-top: 0;
+	}
+	nav ul{
+		display: flex;
+		flex-direction: column;/*this property is used to make items appear in column*/
+	}
+	nav h1{
+		padding-left: 0;
+		display: none;
+	}
+	nav{
+		padding-left: 0px;
+		width: 100%;
+	}
+	.first{
+		display: none;
+	}
+	.heading{
+		height: 100px;
+	}
+	.heading h1{
+		font-size: 2.285em;
+		padding-top: 10px;
+	}
+	.image{
+		padding-top: 25px;
+		right: 30px;
+	}
+	.image img{
+		width: 100px;
+		height: 100px;
+	}
+	.firstcontent{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		bottom: 45px;
+	}
+	.lastcontent{
+		display: flex;
+		flex-direction: column;
+		padding-left: 5px;
+		position: relative;
+		top:-45px;
+	}
+	.firstcontent h3, .lastcontent h3{
+		font-size: 2em;
+	}
+	.firstcontent p, .lastcontent p{
+		font-size: 1.2em;
+	}
+	.study{
+		width: 100%;
+		padding-left: 5px;
+	}
+	.skills{
+		width: 100%;
+		padding-left: 5px;
+	}
+	.comp{
+		width: 65%;
+	}
+	.profession{
+		width: 100%;
+	}
+	.activities{
+		width: 100%;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+		padding-left: 25px;
+		height:190px;
+		width: 100%;
+	}
+}
