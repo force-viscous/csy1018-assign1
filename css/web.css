@@ -6,8 +6,8 @@
 	padding: 0;
 }
 body{
-	background-color: #d3d3d3;
-	color: gray;
+	background-color: #CFD8DC;
+	color: black;
 }
 nav{
 	padding-top: 50px;
@@ -26,7 +26,7 @@ nav ul{
 	position: relative;
 	right: 60px;
 }
-nav a.current{
+nav a.current{  /* This property is used to indicate on which page the user is currently on*/
 	color:#283593;
 }
 nav a{
@@ -43,11 +43,11 @@ nav a{
 }
 .section h1{
 	font-size: 3.55em;
-	color: gray;
+	color: #D50000;
 }
 .section p{
 	font-size: 1.55em;
-	color: gray;
+	color: black;
 }
 section img{
 	border-radius: 50%;
@@ -69,6 +69,7 @@ section img{
 }
 .contents p{
 	font-size: 1.25em;
+	font-family: 'EB Garamond', serif; /*Google font used*/
 }
 .links{
 	display: flex;
