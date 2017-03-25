@@ -15,22 +15,23 @@ nav{
 nav h1{
 	font-size: 1.5em;
 	padding-left: 355px;
+	width: 279px;
 }
 nav ul{
-	list-style-type: none;
+	list-style-type: none;/*To remove dot from list items*/
 	display: flex;
-	justify-content: center;
+	justify-content: center;/*To make items appear in center*/
 }
 .first{
 	font-size: 1.55em;
-	position: relative;
+	position: relative;/*To make items move*/
 	right: 60px;
 }
 nav a.current{  /* This property is used to indicate on which page the user is currently on*/
 	color:#283593;
 }
 nav a{
-	text-decoration: none;
+	text-decoration: none;/*To remove underline*/
 	padding-right: 10px;
 	color: gray;
 	padding-left: 15px;
@@ -39,7 +40,7 @@ nav a{
 }
 .section{
 	display: flex;
-	flex-direction: row; /*this property is used to make items appear in row*/
+	flex-direction: row; /*This property is used to make items appear in row*/
 }
 .section h1{
 	font-size: 3.55em;
@@ -85,7 +86,7 @@ section img{
 	height: 120px;
 	width: 120px;
 	background-color: #00E676;
-	transition: background-color 1s;
+	transition: background-color 1s;/*Animation used to change background color*/
 	border-radius: 50%;
 	text-align: center;
 }
@@ -99,7 +100,7 @@ section img{
 	height: 120px;
 	width: 120px;
 	background-color: #1565C0;
-	transition: background-color 1s;
+	transition: background-color 1s;/*Animation used to change background color*/
 	border-radius: 50%;
 	text-align: center;
 }
@@ -110,7 +111,7 @@ section img{
 	height: 120px;
 	width: 120px;
 	background-color:#FF8F00; 
-	transition: background-color 1s;
+	transition: background-color 1s;/*Animation used to change background color*/
 	border-radius: 50%;
 	text-align: center;
 }
@@ -121,7 +122,7 @@ footer{
 	background-color: #311B92;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-around;/*To give space between the items*/
 	color: white;
 	padding-top: 25px;
 }

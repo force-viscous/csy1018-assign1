@@ -15,11 +15,12 @@ nav{
 nav h1{
 	font-size: 1.5em;
 	padding-left: 355px;
+	width: 279px;
 }
 nav ul{
-	list-style-type: none;
+	list-style-type: none; /*To remove dot from the list items*/
 	display: flex;
-	justify-content: center;
+	justify-content: center; /* This property is used to keep the items in center */
 }
 .first{
 	font-size: 1.55em;
@@ -30,7 +31,7 @@ nav a.current{
 	color:#283593;
 }
 nav a{
-	text-decoration: none;
+	text-decoration: none; /*This property is used to remove underline*/
 	padding-right: 10px;
 	color: gray;
 	padding-left: 15px;
@@ -50,7 +51,7 @@ nav a{
 	text-shadow: 4px 4px gray;
 }
 .image{
-	position: relative;
+	position: relative;/*This property is used so that items can be moved */
 	top: -70px;
 	padding-left: 46%;
 }
@@ -59,7 +60,7 @@ nav a{
 	height: 150px;
 	border-radius: 50%;
 	border: 4px solid #FFECB3;
-	transition: all .9s;
+	transition: all .9s; /*Animation effect */
 }
 .image img:hover{
 	transform: scale(1.2);/* This property is used inorder to zoom the image*/
