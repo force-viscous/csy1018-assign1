@@ -105,19 +105,19 @@ footer p{
 	}
 	nav h1{
 		padding-left: 0;
-		display: none;/*The heading is made hidden*/
+		display: none;/*The heading is made hidden in mobile view*/
 	}
 	nav{
 		padding-left: 0px;
 		width: 100%;
 	}
 	.first{
-		display: none;
+		display: none;/*Used to make item disappear in mobile view*/
 	}
 	section{
 		padding-top: 35px;
 		display: flex;
-		flex-direction:column-reverse;
+		flex-direction:column-reverse;/*Used to make items appear in column*/
 	}
 	.image{
 		width: 100%;
@@ -138,7 +138,7 @@ footer p{
 	}
 	footer{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column;/*Used to make items appear in column*/
 		height: 190px;
 		padding-left: 25px;
 		width: 100%;

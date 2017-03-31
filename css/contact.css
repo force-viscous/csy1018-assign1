@@ -68,6 +68,15 @@ input[type="email"]{
 	width: 446px;
 	border:0px;
 }
+input[type="text"]:focus{
+	background-color: rgba(22,245,122,0.8);
+}
+input[type="email"]:focus{
+	background-color: rgba(22,245,122,0.8);
+}
+textarea:focus{
+	background-color: rgba(22,245,122,0.8);
+}
 ::-webkit-input-placeholder{
 	padding-left: 10px;
 	color: #FAFAFA;
@@ -109,7 +118,7 @@ button:active{	/* used to make button look attractive */
 footer{
 	background-color: #311B92;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;/*Used to make items appear in row*/
 	justify-content: space-around;
 	color: white;
 	padding-top: 25px;
@@ -146,18 +155,18 @@ footer p{
 	}
 	nav h1{
 		padding-left: 0;
-		display: none;
+		display: none;/*The heading is made hidden in mobile view*/
 	}
 	nav{
 		padding-left: 0px;
 		width: 100%;
 	}
 	.first{
-		display: none;
+		display: none;/*Used to make item disappear in mobile view*/
 	}
 	section{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column;/*Used to make items appear in column*/
 	}
 	.heading{
 		width: 100%;
@@ -184,7 +193,7 @@ footer p{
 	}
 	footer{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column;/*Used to make items appear in column*/
 		padding-left: 25px;
 		height:190px;
 		width: 100%;

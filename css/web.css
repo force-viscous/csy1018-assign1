@@ -19,7 +19,7 @@ nav h1{
 }
 nav ul{
 	list-style-type: none;/*To remove dot from list items*/
-	display: flex;
+	display: flex;/*Used to make items appear in row*/
 	justify-content: center;/*To make items appear in center*/
 }
 .first{
@@ -74,7 +74,7 @@ section img{
 }
 .links{
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;/*Used to make items appear in row*/
 	justify-content: space-around;
 }
 .links a{
@@ -121,7 +121,7 @@ section img{
 footer{
 	background-color: #311B92;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;/*Used to make items appear in row*/
 	justify-content: space-around;/*To give space between the items*/
 	color: white;
 	padding-top: 25px;
@@ -165,10 +165,10 @@ footer p{
 		width: 100%;
 	}
 	.first{
-		display: none;
+		display: none;/*To make item disapper in mobile view*/
 	}
 	.section{
-		display: flex;
+		display: flex;/*Used to make items appear in column*/
 		flex-direction: column-reverse;
 	}
 	.image{
@@ -195,7 +195,7 @@ footer p{
 	}
 	footer{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column;/*Used to make items appear in column*/
 		padding-left: 25px;
 		height:190px;
 		width: 100%;
