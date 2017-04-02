@@ -10,16 +10,16 @@ body{
 	color: gray;
 }
 nav{
-	padding-top: 50px;
+	padding-top: 50px;/*used to give space at the top*/
 }
 nav h1{
 	font-size: 1.5em;
-	padding-left: 355px;
+	padding-left: 355px;/*used to give space at the left side*/
 	width: 279px;
 }
 nav ul{
 	list-style-type: none; /*To remove dot from the list items*/
-	display: flex;
+	display: flex;/*items are arranged in row*/
 	justify-content: center; /* This property is used to keep the items in center */
 }
 .first{
@@ -27,7 +27,7 @@ nav ul{
 	position: relative;/*This property is used so that items can be moved */
 	right: 60px;
 }
-nav a.current{
+nav a.current{/*To indicate on which page the user is currently in*/
 	color:#283593;
 }
 nav a{
@@ -64,11 +64,11 @@ nav a{
 }
 .image img:hover{
 	transform: scale(1.2);/* This property is used inorder to zoom the image*/
-	cursor: pointer;
+	cursor: pointer;/*On hovering the image the cursor turns pointer*/
 }
 .firstcontent{
 	display: flex;
-	flex-direction: row;/*This property is used to make items appear in row*/
+	flex-direction: row;/*Used to make items appear in row*/
 }
 .study{
 	width: 55%;
@@ -124,6 +124,7 @@ nav a{
 }
 .profession{
 	width:55%;
+	padding-left: 20px;
 }
 .activities{
 	width: 45%;
@@ -132,7 +133,7 @@ footer{
 	background-color: #311B92;
 	display: flex;
 	flex-direction: row;/*Used to make items appear in row*/
-	justify-content: space-around;
+	justify-content: space-around;/*to make equal space between the items*/
 	color: white;
 	padding-top: 25px;
 }
@@ -152,11 +153,11 @@ footer p{
 	color: white;
 }
 .twitter, .facebook, .instagram{ /*animation used */
-	opacity:1;
+	opacity:1;/*opacity is made full */
 	transition: 1s ease;
 }
 .twitter:hover, .facebook:hover, .instagram:hover{
-	opacity: 0.5;
+	opacity: 0.5;/*on hover opacity is reduced half of its original opacity*/
 }
 @media (max-width: 800px){ /*this property is used to make items responsive*/
 	nav{
@@ -168,7 +169,7 @@ footer p{
 	}
 	nav h1{
 		padding-left: 0;
-		display: none;
+		display: none;/*to make heading disappear*/
 	}
 	nav{
 		padding-left: 0px;

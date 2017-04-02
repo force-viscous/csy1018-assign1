@@ -51,7 +51,7 @@ nav a{
 	color: black;
 }
 section img{
-	border-radius: 50%;
+	border-radius: 50%;/*To make image appear circular*/
 	height: 370px;
 	width: 350px;
 	border:1px solid white;
@@ -75,10 +75,10 @@ section img{
 .links{
 	display: flex;
 	flex-direction: row;/*Used to make items appear in row*/
-	justify-content: space-around;
+	justify-content: space-around;/*To give space between the contents*/
 }
 .links a{
-	text-decoration: none;
+	text-decoration: none;/*To remove underline*/
 	color: white;
 	display: block;
 }
@@ -88,7 +88,7 @@ section img{
 	background-color: #00E676;
 	transition: background-color 1s;/*Animation used to change background color*/
 	border-radius: 50%;
-	text-align: center;
+	text-align: center;/*used to keep texts in the center*/
 }
 .link1:hover{
 	background-color:#1B5E20;
@@ -102,7 +102,7 @@ section img{
 	background-color: #1565C0;
 	transition: background-color 1s;/*Animation used to change background color*/
 	border-radius: 50%;
-	text-align: center;
+	text-align: center;/*making the texts to appear in center*/
 }
 .link2:hover{
 	background-color: #1A237E;
@@ -158,7 +158,7 @@ footer p{
 	}
 	nav h1{
 		padding-left: 0;
-		display: none;
+		display: none;/*Heading is made hidden*/
 	}
 	nav{
 		padding-left: 0px;
